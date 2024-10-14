@@ -9,7 +9,7 @@
 <body>
   <div class="login-container">
     <h2>Login</h2>
-    <form id="login-form">
+    <form id="login-form" onsubmit="return validateLogin();">
       <div class="input-group">
         <label for="username">Usuario</label>
         <input type="text" id="username" name="username" required>
@@ -22,8 +22,8 @@
         <input type="checkbox" id="remember-me" name="remember-me">
         <label for="remember-me">Recordar</label>
       </div>
-      <button type="button" class="login-btn" onclick="validateLogin()">Acceso</button>
-      <div class="https://CarlosDBCloudWeb/OpenUi/home.html">
+      <button type="submit" class="login-btn">Acceso</button>
+      <div class="link">
         <a href="/forgot-password">Olvido Password?</a>
         <a href="/register">n</a>
       </div>
@@ -32,4 +32,3 @@
   <script src="/js/script.js"></script>
 </body>
 </html>
-
