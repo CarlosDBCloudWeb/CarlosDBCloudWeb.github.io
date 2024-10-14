@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>响应式图片框</title>
+  <link rel="stylesheet" href="/OpenUi/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="image-box" onclick="openImage(this)">
+      <img src="/OpenUi/img/brawstart.jpg" alt="图片1">
+    </div>
+    <div class="image-box" onclick="openImage(this)">
+      <img src="/OpenUi/img/roblox.png" alt="图片2">
+    </div>
+    <div class="image-box" onclick="openImage(this)">
+      <img src="/OpenUi/img/SKY_20241013_223856_.jpg" alt="图片3">
+    </div>
+    <div class="image-box" onclick="openImage(this)">
+      <img src="/OpenUi/img/visualcweb creador.png" alt="图片4">
+    
+
+
+      <!--
+    <button class="btn">3D button</button>
+    -->
+    </div>
+  </div>
+
+  <!-- 放大图片的全屏层 -->
+  <div class="overlay" id="overlay">
+    <span class="close-btn" onclick="closeImage()">×</span>
+    <img id="overlay-image" src="" alt="放大图片">
+  </div>
+
+  <script src="/OpenUi/js/script.js"></script>
+</body>
+</html>
